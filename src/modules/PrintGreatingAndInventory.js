@@ -1,7 +1,7 @@
 import { OutputView } from "../views/OutputView.js";
 import { productsInventory } from "../models/Inventory.js";
 
-class printGreetingAndInventory {
+class PrintGreetingAndInventory {
   
   run() {
     this.greetingString();
@@ -28,4 +28,4 @@ class printGreetingAndInventory {
   }
 }
 
-export default printGreetingAndInventory;
+export default PrintGreetingAndInventory;
