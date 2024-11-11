@@ -1,11 +1,13 @@
 import { OutputView } from "../views/OutputView.js";
 import { productsInventory } from "../models/Inventory.js";
+import { MissionUtils } from "@woowacourse/mission-utils";
 
 class PrintGreetingAndInventory {
   
   run() {
     this.greetingString();
     this.inventoryAlertString();
+    MissionUtils.Console.print("");
     this.inventory();
   }
 
