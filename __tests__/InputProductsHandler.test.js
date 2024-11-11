@@ -1,10 +1,10 @@
-import InputHandler from "../src/modules/InputHandler.js";
+import InputProductsHandler from "../src/modules/InputProductsHandler.js";
 
-describe("InputHandler", () => {
+describe("초기 입력되는 품명과 수량에 대해 입력받고 검증하는 것을 테스트", () => {
   let inputHandler;
 
   beforeEach(() => {
-    inputHandler = new InputHandler();
+    inputHandler = new InputProductsHandler();
   });
 
   it("검증에 성공하면 검증된 입력값을 반환.", async () => {
